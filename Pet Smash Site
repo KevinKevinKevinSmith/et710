@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <link href="http://s3.amazonaws.com/codecademy-content/courses/ltp/css/shift.css" rel="stylesheet"/>
+    
+    <link rel="stylesheet" href="http://s3.amazonaws.com/codecademy-content/courses/ltp/css/bootstrap.css"/>
+
+    <link rel="stylesheet" href="C:\Users\student\Documents\My Web Sites\mysite\Pet Smash CSS.css"/>
+  </head>
+
+  <body>
+    <div class="nav">
+      <div class="container">
+        <ul class="pull-left">
+          <li><a href="#">Home</a></li>
+          <li><a href="#">SmashBros.com</a></li>
+        </ul>
+        <ul class="pull-right">
+          <li><a href="#">Sign Up</a></li>
+          <li><a href="#">Log In</a></li>
+          <li><a href="#">Help</a></li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="jumbotron">    
+      <div class="main">
+      	<div class="container">
+        	<h1>See the Smashers!</h1>
+        	<p>My favorite characters, broken down in one place.</p>
+      	</div>
+      </div>
+    </div> 
+    
+    <div class ="character-guides">
+        <div class="container">
+            <h2>Character Guides</h2>
+            <p>My Favorite Smashers, grouped together</p>
+            <div class="row">
+                <div class="col-md-4">
+                	<h3>Zoning Characters</h3>
+                	<p>Prefer to keep characters just out of range with their superior reach. 
+                		Outside of pokes/jabs/fast aerials they also like to mixup with grabs. 
+                		They all have defensive moves to deal with various types of pressure.</p>
+                    <div class="thumbnail">
+                        <img src="http://www.smashbros.com/images/character/shulk/main.png">
+                    </div>
+                    <div class="thumbnail">
+                        <img src="http://www.smashbros.com/images/character/ike/main.png">
+                    </div>
+                    <div class="thumbnail">
+                        <img src="http://www.smashbros.com/images/character/rosetta/main.png">
+                    </div>
+                </div>
+                
+                <div class="col-md-4">
+             		<h3>Projectile Characters</h3>
+             		<p>Prefer to mixup with projectiles and close combat attacks, weaving back and forth between close and long range. 
+             			Dislike grabbing and instead try to trip opponents up with levels of pressure. 
+             			Often have few tools to deal with opponent projectiles.</p>
+                    <div class="thumbnail">
+                        <img src="http://www.smashbros.com/images/character/pikmin/main.png">
+                    </div>
+                    <div class="thumbnail">
+                        <img src="http://www.smashbros.com/images/character/samus/main.png">
+                    </div>
+                    <div class="thumbnail">
+                        <img src="http://www.smashbros.com/images/character/link/main.png">
+                    </div>
+                </div>
+                
+                <div class="col-md-4">
+                	<h3>Brawler Characters</h3>
+                	<p>Prefer to jump in with grabs, mixups, and shield pressure. Rushdown types. 
+                		Can deal with projectiles without slowing down. 
+                		Love to grab, and may even have a kill move or low percent combo off their grabs. 
+                		Have a basic projectile to help counter characters at range or rushdown.</p>
+                    <div class="thumbnail">
+                        <img src="http://www.smashbros.com/images/character/mario/main.png">
+                    </div>
+                    <div class="thumbnail">
+                        <img src="http://www.smashbros.com/images/character/wii_fit_trainer/main.png">
+                    </div>
+                    <div class="thumbnail">
+                        <img src="http://www.smashbros.com/images/character/lizardon/main.png">
+                    </div>                    
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="learn-more">
+	  <div class="container">
+		<div class="row">
+	      <div class="col-md-4">
+			<h3>History</h3>
+			<p>Learn about the games they come from, and the references baked into their Smash moveset</p>
+			<p><a href="#">Check the History</a></p>
+	      </div>
+		  <div class="col-md-4">
+			<h3>Pros and Cons</h3>
+			<p>Read the advantages and disadvantages each character has in various types of situations</p>
+			<p><a href="#">Check the Pros and Cons</a></p>
+		  </div>
+		  <div class="col-md-4">
+			<h3>Gameplay</h3>
+			<p>Watch videos of pro showcasing the characters in various tournaments</p>
+			<p><a href="#">Check the Gameplay</a></p>
+		  </div>
+	    </div>
+	  </div>
+	</div>
+  </body>
+</html>
