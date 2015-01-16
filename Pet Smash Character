@@ -1,0 +1,102 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+  <head>
+    <link href="http://s3.amazonaws.com/codecademy-content/courses/ltp/css/shift.css" rel="stylesheet" />
+    
+    <link href="http://s3.amazonaws.com/codecademy-content/courses/ltp/css/bootstrap.css" rel="stylesheet" />
+
+    <link href="C:\Users\student\Documents\My%20Web%20Sites\mysite\Pet%20Smash%20CSS.css" rel="stylesheet" />
+  </head>
+
+  <body>
+  	<!-- Navigation Bar -->
+    <div class="nav">
+      <div class="container">
+        <ul class="pull-left">
+          <li><a href="#">Home</a></li>
+          <li><a href="#">SmashBros.com</a></li>
+        </ul>
+        <ul class="pull-right">
+          <li><a href="#">Sign Up</a></li>
+          <li><a href="#">Log In</a></li>
+          <li><a href="#">Help</a></li>
+        </ul>
+      </div>
+    </div>
+    
+    
+    <!--- Jumbotron for character --->
+    <div class="jumbotron">
+      <div class="character">
+      	<div class="container">
+      	  <h1>Character!</h1>
+      	  <p>Character one liner!</p>
+      	</div>
+      </div>
+    </div>
+    
+	<div class="character-nav">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-3">
+					<ul>
+						<li>Zoning Characters</li>
+							<ul>
+								<li><a href="#">Shulk</a></li>
+								<li><a href="#">Ike</a></li>
+								<li><a href="#">Rosalina</a></li>
+							</ul>
+						<li>Projectile Characters</li>
+							<ul>
+								<li><a href="#">Olimar</a></li>
+								<li><a href="#">Samus</a></li>
+								<li><a href="#">Link</a></li>
+							</ul>
+						<li>Brawler Characters</li>
+							<ul>
+								<li><a href="#">Mario</a></li>
+								<li><a href="#">Charizard</a></li>
+								<li><a href="#">Wii Fit Trainer</a></li>
+							</ul>						
+					</ul>				
+				</div>
+			</div>		
+		</div>
+	</div>
+	
+	<div class="character-info">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-9">
+				
+				</div>
+			</div>		
+		</div>
+	</div>
+
+    
+  	<div class="learn-more">
+	  <div class="container">
+		<div class="row">
+	      <div class="col-md-4">
+			<h3>History</h3>
+			<p>Learn about the games they come from, and the references baked into their Smash moveset</p>
+			<p><a href="#">Check the History</a></p>
+	      </div>
+		  <div class="col-md-4">
+			<h3>Pros and Cons</h3>
+			<p>Read the advantages and disadvantages each character has in various types of situations</p>
+			<p><a href="#">Check the Pros and Cons</a></p>
+		  </div>
+		  <div class="col-md-4">
+			<h3>Gameplay</h3>
+			<p>Watch videos of pro showcasing the characters in various tournaments</p>
+			<p><a href="#">Check the Gameplay</a></p>
+		  </div>
+	    </div>
+	  </div>
+	</div>
+  
+  </body>
+</html>
