@@ -20,6 +20,13 @@
   background-size: cover;
 }
 
+.jumbotron  .general{
+  background-image:url('https://asset1.basecamp.com/2791912/projects/8068241/attachments/131073798/1a9cc07353b15ee63966920a85a6e0b00010/thumbnail.png');
+  height: 900px;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
 .jumbotron .Shulk {
   background-image:url("http://www.smashbros.com/images/character/shulk/screen-1.jpg");
   height: 500px;
@@ -35,49 +42,49 @@
 }
 
 .jumbotron .Rosalina{
-  background-image:url("http://www.smashbros.com/images/character/Rosetta/screen-1.jpg");
+  background-image:url("http://www.smashbros.com/images/character/rosetta/screen-1.jpg");
   height: 500px;
   background-repeat: no-repeat;
   background-size: cover;   
 }
 
 .jumbotron .Olimar{
-  background-image:url("http://www.smashbros.com/images/character/Pikmin/screen-1.jpg");
+  background-image:url("http://www.smashbros.com/images/character/pikmin/screen-2.jpg");
   height: 500px;
   background-repeat: no-repeat;
   background-size: cover;   
 }
 
 .jumbotron .Samus{
-  background-image:url("http://www.smashbros.com/images/character/Samus/screen-1.jpg");
+  background-image:url("http://www.smashbros.com/images/character/samus/screen-2.jpg");
   height: 500px;
   background-repeat: no-repeat;
   background-size: cover;   
 }
 
 .jumbotron .Link{
-  background-image:url("http://www.smashbros.com/images/character/Link/screen-1.jpg");
+  background-image:url("http://www.smashbros.com/images/character/link/screen-5.jpg");
   height: 500px;
   background-repeat: no-repeat;
   background-size: cover;   
 }
 
 .jumbotron .Mario{
-  background-image:url("http://www.smashbros.com/images/character/Mario/screen-1.jpg");
+  background-image:url("http://www.smashbros.com/images/character/mario/screen-1.jpg");
   height: 500px;
   background-repeat: no-repeat;
   background-size: cover;   
 }
 
 .jumbotron .Charizard{
-  background-image:url("http://www.smashbros.com/images/character/Lizardon/screen-1.jpg");
+  background-image:url("http://www.smashbros.com/images/character/lizardon/screen-1.jpg");
   height: 500px;
   background-repeat: no-repeat;
   background-size: cover;   
 }
 
 .jumbotron .WiiFitTrainer{
-  background-image:url("http://www.smashbros.com/images/character/Wii_Fit_Trainer/screen-1.jpg");
+  background-image:url("http://www.smashbros.com/images/character/wii_fit_trainer/screen-3.jpg");
   height: 500px;
   background-repeat: no-repeat;
   background-size: cover;   
@@ -90,7 +97,7 @@
 }
 
 .jumbotron h1 {
-  color: #fff;
+  color: #00CCFF;
   font-size: 48px;  
   font-family: 'Shift', sans-serif;
   font-weight: bold;
@@ -98,7 +105,7 @@
 
 .jumbotron p {
   font-size: 20px;
-  color: #fff;
+  color: #00CCFF;
 }
 
 /* Main page content */
@@ -119,11 +126,16 @@
 
 /* Side page content */
 .character-nav {
-	
+	margin-top: 5px;
 }
 /* Character page content */
 .character-info {
 	
+}
+
+.character-info p {
+	margin-top: 35px;
+	margin-bottom: 35px;
 }
 
 
